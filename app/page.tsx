@@ -26,7 +26,7 @@ export default function HomePage() {
             <div className="hidden md:flex items-center space-x-6">
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span className="text-sm">+91 9876543210</span>
+                <span className="text-sm">+91 9943450401</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
