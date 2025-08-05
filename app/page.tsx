@@ -5,7 +5,7 @@ import Image from "next/image"
 
 export default function HomePage() {
   return (
-      <div className="min-h-screen bg-yellow-50 py-12 px-4 sm:px-6 lg:px-8"> 
+      <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="bg-[#e5773c] text-white">
         <div className="container mx-auto px-4 py-3">
