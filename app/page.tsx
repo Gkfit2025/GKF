@@ -5,9 +5,9 @@ import Image from "next/image"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-yellow-50 py-12 px-4 sm:px-6 lg:px-8"> 
+   <div className="min-h-screen bg-yellow-50 py-12 px-4 sm:px-6 lg:px-8"> 
       {/* Header */}
-      <header className="bg-[#e5773c] text-white">
+      <header className="bg-[#ff9a54] text-white">
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
@@ -16,7 +16,7 @@ export default function HomePage() {
                 alt="GKF Logo1"
                 width={300}
                 height={60}
-                className="rounded-full"   {/* edit */}
+                className="rounded-full"
               />
               <div>
                 <h1 className="text-2xl font-bold">GKF Madurai</h1>
