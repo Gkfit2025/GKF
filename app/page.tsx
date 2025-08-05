@@ -5,7 +5,7 @@ import Image from "next/image"
  
 export default function HomePage() {
   return (
-      <>
+
       
 
    <div className="min-h-screen bg-yellow-50 py-12 px-4 sm:px-6 lg:px-8"> 
@@ -381,6 +381,5 @@ export default function HomePage() {
         </div>
       </footer>
     </div>
-   </>
   )
 }
