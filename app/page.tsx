@@ -2,15 +2,12 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Phone, Mail, MapPin, Clock, Users, Award, Heart } from "lucide-react"
 import Image from "next/image"
- 
+
 export default function HomePage() {
   return (
-
-      
-
-   <div className="min-h-screen bg-yellow-50 py-12 px-4 sm:px-6 lg:px-8"> 
+    <div className="min-h-screen bg-yellow-50 py-12 px-4 sm:px-6 lg:px-8"> 
       {/* Header */}
-      <header className="bg-[#e5773c] text-white">
+      <header className="bg-yellow-400 text-white">
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
@@ -18,15 +15,6 @@ export default function HomePage() {
                 src="/gkf-logo.webp?height=60&width=300"
                 alt="GKF Logo1"
                 width={300}
-                height={60}
-                className="rounded-full"
-              />
-              <div>
-                 <div className="flex items-center space-x-4">
-              <Image
-                src="/qrcode.webp?height=60&width=60"
-                alt="QR code"
-                width={60}
                 height={60}
                 className="rounded-full"
               />
