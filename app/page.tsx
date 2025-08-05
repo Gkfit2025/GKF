@@ -5,6 +5,12 @@ import Image from "next/image"
 
 export default function HomePage() {
   return (
+      <>
+      <Head>
+        <title>Grace Kennett Foundation, Madurai</title>
+        <meta name="description" content="Grace Kennett Foundation Hospital – caring, adoption, community college, volunteering in Madurai." />
+      </Head>
+
    <div className="min-h-screen bg-yellow-50 py-12 px-4 sm:px-6 lg:px-8"> 
       {/* Header */}
       <header className="bg-[#e5773c] text-white">
@@ -369,5 +375,6 @@ export default function HomePage() {
         </div>
       </footer>
     </div>
+   </>
   )
 }
