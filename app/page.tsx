@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Phone, Mail, MapPin, Clock, Users, Award, Heart } from "lucide-react"
 import Image from "next/image"
-
+ 
 export default function HomePage() {
   return (
       <>
