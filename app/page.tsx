@@ -5,9 +5,9 @@ import Image from "next/image"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-yellow-50 py-12 px-4 sm:px-6 lg:px-8"> 
       {/* Header */}
-      <header className="bg-blue-900 text-white">
+      <header className="bg-yellow-900 text-white">
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
