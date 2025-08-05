@@ -12,9 +12,9 @@ export default function HomePage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
               <Image
-                src="/placeholder.svg?height=60&width=60"
-                alt="GKF Logo"
-                width={60}
+                src="/gkf-logo.webp?height=60&width=300"
+                alt="GKF Logo1"
+                width={300}
                 height={60}
                 className="rounded-full"
               />
