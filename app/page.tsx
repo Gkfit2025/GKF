@@ -16,7 +16,7 @@ export default function HomePage() {
                 alt="GKF Logo1"
                 width={300}
                 height={60}
-                className="rounded-full"
+                className="rounded-none"
               />
               <div className="flex items-center space-x-4">
               <Image
@@ -24,7 +24,7 @@ export default function HomePage() {
                 alt="QR code"
                 width={60}
                 height={60}
-                className="rounded-full"
+                className="rounded-none"
               />
               <div>
                 <h1 className="text-2xl font-bold">GKF Madurai</h1>
