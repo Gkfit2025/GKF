@@ -18,8 +18,7 @@ export default function HomePage() {
                 height={60}
                 className="rounded-full"
               />
-              <div>
-                 <div className="flex items-center space-x-4">
+              <div className="flex items-center space-x-4">
               <Image
                 src="/qrcode.webp?height=60&width=60"
                 alt="QR code"
@@ -28,9 +27,9 @@ export default function HomePage() {
                 className="rounded-full"
               />
               <div>
-
                 <h1 className="text-2xl font-bold">GKF Madurai</h1>
                 <p className="text-blue-200 text-sm">Healthcare Excellence</p>
+                 </div>
               </div>
             </div>
             <div className="hidden md:flex items-center space-x-6">
