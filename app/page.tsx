@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
    <div className="min-h-screen bg-yellow-50 py-12 px-4 sm:px-6 lg:px-8"> 
       {/* Header */}
-      <header className="bg-[#ff9a54] text-white">
+      <header className="bg-[#e5773c] text-white">
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
