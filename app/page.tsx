@@ -16,7 +16,7 @@ export default function HomePage() {
                 alt="GKF Logo1"
                 width={300}
                 height={60}
-                className="rounded-full"
+                className="rounded-full"   {/* edit */}
               />
               <div>
                 <h1 className="text-2xl font-bold">GKF Madurai</h1>
