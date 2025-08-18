@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Define the type for a training app
+// Define the type for a training app  
 interface TrainingApp {
   name: string;
   url: string;
